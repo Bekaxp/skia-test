@@ -2,6 +2,10 @@
   "name": "SkiaTest",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "yarn@4.9.1",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -10,8 +14,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@gorhom/bottom-sheet": "^5.1.2",
+    "@shopify/react-native-skia": "next",
     "react": "19.0.0",
-    "react-native": "0.79.2"
+    "react-native": "0.79.2",
+    "react-native-gesture-handler": "^2.24.0",
+    "react-native-paper": "^5.14.0",
+    "react-native-reanimated": "^3.17.1",
+    "react-native-screens": "^4.9.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -27,13 +37,13 @@
     "@types/jest": "^29.5.13",
     "@types/react": "^19.0.0",
     "@types/react-test-renderer": "^19.0.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "babel-plugin-react-compiler": "^19.1.0-rc.1",
     "eslint": "^8.19.0",
     "jest": "^29.6.3",
     "prettier": "2.8.8",
+    "react-native-safe-area-context": "^5.3.0",
     "react-test-renderer": "19.0.0",
-    "typescript": "5.0.4"
-  },
-  "engines": {
-    "node": ">=18"
+    "typescript": "^5.8.3"
   }
 }
