@@ -2415,9 +2415,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shopify/react-native-skia@npm:next":
-  version: 2.0.0-next.5
-  resolution: "@shopify/react-native-skia@npm:2.0.0-next.5"
+"@shopify/react-native-skia@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@shopify/react-native-skia@npm:2.0.0"
   dependencies:
     canvaskit-wasm: "npm:0.40.0"
     react-reconciler: "npm:0.31.0"
@@ -2432,7 +2432,7 @@ __metadata:
       optional: true
   bin:
     setup-skia-web: scripts/setup-canvaskit.js
-  checksum: 10c0/a7f8362e1b3d703bdc6d549c2c4d42d124e8a42501811af884a92c536c7c08bd248fbc155c1bddf129161036b0ea45065412fc8e314edbd7d6da919c59eea2d9
+  checksum: 10c0/0df67f7bece14f271bfd841c3b4e4be8f53b6e700ea70c9cefa940cbeb4ab37f60d2a11482fe58d93725d47ac3c2ce5557bd1516a494ab836df27535afaef5ff
   languageName: node
   linkType: hard
 
@@ -2866,7 +2866,7 @@ __metadata:
     "@react-native/eslint-config": "npm:0.79.2"
     "@react-native/metro-config": "npm:0.79.2"
     "@react-native/typescript-config": "npm:0.79.2"
-    "@shopify/react-native-skia": "npm:next"
+    "@shopify/react-native-skia": "npm:^2.0.0"
     "@types/jest": "npm:^29.5.13"
     "@types/react": "npm:^19.0.0"
     "@types/react-test-renderer": "npm:^19.0.0"
